@@ -1,0 +1,18 @@
+{
+  "include": ["./src/**/*", "./*.ts", "./*.tsx"],
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "jsx": "react-jsx",
+    "target": "ES2020",
+    "lib": ["dom", "es2020"],
+
+    "module": "ESNext",
+    "moduleResolution": "Node",
+
+    "types": ["react", "react-dom"]
+  }
+}
